@@ -1,0 +1,249 @@
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  margin: 0;
+  font-size: 28px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2EA6EE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: black;
+  color: white;
+}
+.navbar a.lgo {
+  background-color: #797F88;
+  color: white;
+  font-size: 17px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+.resume-btn {
+  top: 4px;
+  right: 4px;
+  height: 8px;
+  text-align: center;
+  line-height: 8px;
+  position: absolute;
+  text-decoration: none;
+  background-color: #2EA6EE;
+  color: white;
+  font-family: "Impact", Charcoal, sans-serif;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.resume-btn:hover{
+  color: #2A99DB;
+  background-color: white;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.header h1{
+  line-height: 100px;
+  height: 50px;
+  font-family: "Londrina Shadow";
+  font-size: 80px;
+}
+
+
+
+
+
+.home {
+  padding-top: 100px;
+  padding-left: 20%;
+  text-align: left;
+}
+
+.home p{
+  line-height: 100px;
+  height: 10px;
+  font-size: 18px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.home h2{
+  line-height: 100px;
+  height: 35px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 50px;
+  color: #2EA6EE;
+}
+
+.home h3{
+  color: #8F949C;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 45px;
+}
+
+.socialIcon {
+  padding: 0 20%;
+  text-decoration: none;
+}
+
+.fa-github-square{
+  text-decoration: none;
+  color: black;
+}
+
+.fa-linkedin-square{
+  text-decoration: none;
+  color: black;
+}
+
+.fa-envelope-o{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+.about {
+  padding: 5% 20%;
+  /* padding: 50px 240px; */
+  text-align: left;
+}
+
+.about h3{
+  font-family: "Arial Black", Gadget, sans-serif;
+  line-height: 50px;
+  height: 30px;
+}
+
+.about h4{
+  font-size: 24px;
+  font-family: "Lucida Console", Monaco, monospace;
+  height: 2px;
+}
+
+.about h5{
+  font-size: 18px;
+  font-family: "Lucida Console", Monaco, monospace;
+  height: 2px;
+  padding-left: 1px;
+}
+
+.about p{
+  font-size: 18px;
+  font-family: "Lucida Console", Monaco, monospace;
+  line-height: 30px;
+}
+
+ul {
+  margin-left: 16px;
+  font-size: 18px;
+  font-family: "Lucida Console", Monaco, monospace;
+  line-height: 30px;
+}
+li {
+  padding-bottom: 8px;
+}
+
+.skills p{
+  line-height: 25px;
+  height: 10px;
+  padding: 0px 3px;
+}
+
+.skillbar {
+  background-color: black;
+  border-radius: 13px;
+  padding: 3px;
+}
+
+
+.java{
+  background-color: #2EA6EE;
+  width: 70%;
+  height: 14px;
+  border-radius: 10px;
+}
+
+.c{
+  background-color: #2EA6EE;
+  width: 60%;
+  height: 14px;
+  border-radius: 10px;
+}
+
+.htmlcss{
+  background-color: #2EA6EE;
+  width: 35%;
+  height: 14px;
+  border-radius: 10px;
+}
+
+.python{
+  background-color: #2EA6EE;
+  width: 50%;
+  height: 14px;
+  border-radius: 10px;
+}
+
+.r{
+  background-color: #2EA6EE;
+  width: 20%;
+  height: 14px;
+  border-radius: 10px;
+}
+
+.ocaml{
+  background-color: #2EA6EE;
+  width: 40%;
+  height: 14px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.project{
+
+}
+.project h3{
+  font-family: "Arial Black", Gadget, sans-serif;
+  line-height: 50px;
+  height: 30px;
+}
