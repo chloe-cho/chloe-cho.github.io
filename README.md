@@ -1,2 +1,2 @@
 # chloehcho.github.io
-# Personal website created to showcase my portfolio for computer science
+Personal website created to showcase my portfolio for computer science
