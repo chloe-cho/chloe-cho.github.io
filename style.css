@@ -232,14 +232,21 @@ li {
 
 
 
-
-
-
-.project{
-
-}
 .project h3{
   font-family: "Arial Black", Gadget, sans-serif;
   line-height: 50px;
   height: 30px;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding:;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
