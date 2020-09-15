@@ -9,6 +9,9 @@ body {
   font-size: 28px;
 }
 
+
+/* NAVIGATION BAR */
+
 .navbar {
   overflow: hidden;
   background-color: #2EA6EE;
@@ -84,7 +87,7 @@ body {
 }
 
 
-
+/* HOME PAGE */
 
 
 .home {
@@ -114,25 +117,17 @@ body {
   font-size: 45px;
 }
 
-.socialIcon {
+.socialIcon{
   padding: 0 20%;
-  text-decoration: none;
 }
-
-.fa-github-square{
-  text-decoration: none;
-  color: black;
-}
-
-
-.fa-envelope-o{
+.socialIcon i{
   text-decoration: none;
   color: black;
 }
 
 
 
-
+/* ABOUT */
 
 .about {
   padding: 5% 20%;
@@ -190,7 +185,7 @@ li {
 
 .java{
   background-color: #2EA6EE;
-  width: 70%;
+  width: 50%;
   height: 14px;
   border-radius: 10px;
 }
@@ -204,14 +199,14 @@ li {
 
 .htmlcss{
   background-color: #2EA6EE;
-  width: 35%;
+  width: 50%;
   height: 14px;
   border-radius: 10px;
 }
 
 .python{
   background-color: #2EA6EE;
-  width: 50%;
+  width: 80%;
   height: 14px;
   border-radius: 10px;
 }
@@ -231,6 +226,7 @@ li {
 }
 
 
+/* PROJECT */
 
 .project h3{
   font-family: "Arial Black", Gadget, sans-serif;
@@ -249,4 +245,24 @@ li {
   content: "";
   display: table;
   clear: both;
+}
+
+/* CLASSES */
+.classes {
+  padding: 5% 20%;
+  /* padding: 50px 240px; */
+  text-align: left;
+}
+
+.classes h3{
+  font-family: "Arial Black", Gadget, sans-serif;
+  line-height: 50px;
+  height: 30px;
+}
+
+.classes h5{
+  font-size: 18px;
+  font-family: "Lucida Console", Monaco, monospace;
+  height: 3px;
+  padding-left: 1px;
 }
