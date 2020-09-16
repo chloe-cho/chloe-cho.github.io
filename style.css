@@ -4,7 +4,7 @@
   display: table;
 }
 
-body {
+body{
   margin: 0;
   font-size: 28px;
 }
@@ -12,7 +12,7 @@ body {
 
 /* NAVIGATION BAR */
 
-.navbar {
+.navbar{
   overflow: hidden;
   background-color: #2EA6EE;
   position: fixed;
@@ -20,7 +20,7 @@ body {
   width: 100%;
 }
 
-.navbar a {
+.navbar a{
   float: left;
   display: block;
   color: white;
@@ -31,28 +31,28 @@ body {
   font-family: Impact, Charcoal, sans-serif;
 }
 
-.navbar a:hover {
+.navbar a:hover{
   background-color: white;
   color: black;
 }
 
-.navbar a.active {
+.navbar a.active{
   background-color: black;
   color: white;
 }
-.navbar a.lgo {
+.navbar a.lgo{
   background-color: #797F88;
   color: white;
   font-size: 17px;
 }
 
-.main {
+.main{
   padding: 16px;
   margin-top: 30px;
   height: 1500px;
 }
 
-.resume-btn {
+.resume-btn{
   top: 4px;
   right: 4px;
   height: 8px;
@@ -73,7 +73,7 @@ body {
   background-color: white;
 }
 
-.header {
+.header{
   background-color: #f1f1f1;
   padding: 50px 80px;
   text-align: center;
@@ -90,7 +90,7 @@ body {
 /* HOME PAGE */
 
 
-.home {
+.home{
   padding-top: 100px;
   padding-left: 20%;
   text-align: left;
@@ -129,7 +129,7 @@ body {
 
 /* ABOUT */
 
-.about {
+.about{
   padding: 5% 20%;
   /* padding: 50px 240px; */
   text-align: left;
@@ -228,27 +228,28 @@ li {
 
 /* PROJECT */
 
+.project{
+  padding: 5% 20%;
+}
+.project table{
+  width: 100%;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.project td{
+  font-size: 18px;
+}
+.project th{
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
 .project h3{
   font-family: "Arial Black", Gadget, sans-serif;
   line-height: 50px;
   height: 30px;
 }
 
-.column {
-  float: left;
-  width: 40%;
-  padding:;
-
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* CLASSES */
-.classes {
+.classes{
   padding: 5% 20%;
   /* padding: 50px 240px; */
   text-align: left;
