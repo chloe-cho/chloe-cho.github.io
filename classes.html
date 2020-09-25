@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-widrh, initial scale-1=1">
     <title>Classes</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Londrina Shadow' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="myscripts.js"></script>
   </head>
 
   <body>
+
     <div class="navbar">
         <a class="lgo">Chloe.</a>
         <a href="index.html">Home</a>
@@ -24,7 +27,7 @@
 
     <div class="classes">
 
-      <h3>Algorithms and Data Structures</h3>
+      <!-- <h3>Algorithms and Data Structures</h3>
       <h5>Language: Python</h5>
 
       <h3>Internet Programming</h3>
@@ -42,12 +45,39 @@
       <h3>Intro to Computing and Programming</h3>
       <h5>Language: Python</h5>
       <p>Created </p>
+ -->
 
+
+    <h2>Vertical Tabs</h2>
+    <p>Click on the buttons inside the tabbed menu:</p>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
     </div>
 
+    <div id="London" class="tabcontent" style="display: block;">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent" style="display: none;">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent" style="display: none;">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+    </div>
     <div class="footer">
-      <p>Footer</p>
+      <p>&copy; 2020 Chloe Cho</p>
     </div>
-    
+
+
+
+
   </body>
 </html>

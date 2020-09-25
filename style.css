@@ -7,6 +7,9 @@
 body{
   margin: 0;
   font-size: 28px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #557694;
 }
 
 
@@ -14,7 +17,7 @@ body{
 
 .navbar{
   overflow: hidden;
-  background-color: #078282FF;
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,11 +36,11 @@ body{
 
 .navbar a:hover{
   background-color: white;
-  color: black;
+  color: #CC99CC;
 }
 
 .navbar a.active{
-  background-color: black;
+  background-color: #CC99CC;
   color: white;
 }
 .navbar a.lgo{
@@ -60,7 +63,7 @@ body{
   line-height: 8px;
   position: absolute;
   text-decoration: none;
-  background-color: #078282FF;
+  background-color: black;
   color: white;
   font-family: "Impact", Charcoal, sans-serif;
   border: 2px solid white;
@@ -74,7 +77,7 @@ body{
 }
 
 .header{
-  background-color: #ffb3ff;
+  background-color: black;
   padding: 50px 80px;
   text-align: center;
 }
@@ -82,8 +85,9 @@ body{
 .header h1{
   line-height: 100px;
   height: 50px;
-  font-family: "Londrina Shadow";
+  font-family: 'Luckiest Guy', cursive;
   font-size: 80px;
+  color: #252728;
 }
 
 
@@ -97,24 +101,21 @@ body{
 }
 
 .home p{
-  line-height: 100px;
-  height: 10px;
+  margin: 0px;
   font-size: 18px;
-  font-family: "Lucida Console", Monaco, monospace;
+  color: #809cb6;
 }
 
 .home h2{
-  line-height: 100px;
-  height: 35px;
-  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 0px;
   font-size: 50px;
-  color: #5f0083;
+  color: #252728;
 }
 
 .home h3{
-  color: #c193ec;
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 45px;
+  margin: 0px;
+  color: #394f63;
+  font-size: 40px;
 }
 
 .socialIcon{
@@ -133,42 +134,49 @@ body{
   padding: 5% 20%;
   /* padding: 50px 240px; */
   text-align: left;
+  color: #809cb6;
 }
 
 .about h3{
-  font-family: "Arial Black", Gadget, sans-serif;
+  /* font-family: "Arial Black", Gadget, sans-serif; */
+  font-size: 30px;
   line-height: 50px;
   height: 30px;
+  color: #394f63;
 }
 
-.about h4{
-  font-size: 24px;
-  font-family: "Lucida Console", Monaco, monospace;
-  height: 2px;
-}
 
 .about h5{
   font-size: 18px;
-  font-family: "Lucida Console", Monaco, monospace;
-  height: 2px;
-  padding-left: 1px;
+  /* font-family: 'Roboto Mono', monospace; */
+  /* height: 2px;
+  padding-left: 1px; */
+  margin: 0px;
 }
 
 .about p{
   font-size: 18px;
-  font-family: "Lucida Console", Monaco, monospace;
-  line-height: 30px;
+
+  margin: 0px;
 }
+
+.skills{
+  font-size: 18px;
+  padding: 0% 20%;
+  text-align: left;
+  margin: 0;
+}
+
 
 ul {
   margin-left: 16px;
   font-size: 18px;
-  font-family: "Lucida Console", Monaco, monospace;
-  line-height: 30px;
+  /* font-family: 'Roboto Mono', monospace; */
+  margin: 0px;
 }
-li {
+/* li {
   padding-bottom: 8px;
-}
+} */
 
 .skills p{
   line-height: 25px;
@@ -233,17 +241,18 @@ li {
 }
 .project table{
   width: 100%;
-  font-family: "Lucida Console", Monaco, monospace;
+  table-layout: fixed;
+  /* font-family: 'Roboto Mono', monospace; */
 }
 .project td{
   font-size: 18px;
 }
 .project th{
-  font-family: "Arial Black", Gadget, sans-serif;
+  /* font-family: "Arial Black", Gadget, sans-serif; */
 }
 
 .project h3{
-  font-family: "Arial Black", Gadget, sans-serif;
+  /* font-family: "Arial Black", Gadget, sans-serif; */
   line-height: 50px;
   height: 30px;
 }
@@ -251,21 +260,64 @@ li {
 /* CLASSES */
 .classes{
   padding: 5% 20%;
-  /* padding: 50px 240px; */
   text-align: left;
 }
 
 .classes h3{
-  font-family: "Arial Black", Gadget, sans-serif;
-  line-height: 50px;
-  height: 30px;
+  margin-bottom: 5px;
+  font-size: 25px;
 }
+
 
 .classes h5{
   font-size: 18px;
-  font-family: "Lucida Console", Monaco, monospace;
-  height: 3px;
+  margin: 0px;
   padding-left: 1px;
+}
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 75%;
+  border-left: none;
+  height: 300px;
 }
 
 .footer{
@@ -273,6 +325,8 @@ li {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #9E66FF;
+   background-color: #384d61;
+   color: #809cb6;
    text-align: center;
+   font-size: 16px;
 }
