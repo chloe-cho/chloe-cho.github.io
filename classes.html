@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-widrh, initial scale-1=1">
     <title>Classes</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;700&display=swap" rel="stylesheet">
     <script src="myscripts.js"></script>
   </head>
@@ -27,51 +27,51 @@
 
     <div class="classes">
 
-      <!-- <h3>Algorithms and Data Structures</h3>
-      <h5>Language: Python</h5>
+      <div class="tab">
+        <button class="tablinks" onclick="openClasses(event, 'CS5115')" id="defaultOpen">CSCI 5115</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS4131')">CSCI 4131</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS4707')">CSCI 4707</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS4041')">CSCI 4041</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS3081W')">CSCI 3081W</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS4061')">CSCI 4061</button>
+      </div>
 
-      <h3>Internet Programming</h3>
-      <h5>Language: HTML & CSS</h5>
+      <div id="CS5115" class="tabcontent" style="display: none;">
+        <h3>User Interface Design</h3>
+        <p>* Currently Taking *</p>
+        <p> Learning about user interface design and ways to improve a design.</p>
+        <p>Project:</p>
 
-      <h3>Machine Architecture and Organization</h3>
-      <h5>Language: C & Assembly</h5>
+      </div>
 
-      <h3>Advanced Programming Principles</h3>
-      <h5>Language: OCaml</h5>
+      <div id="CS4131" class="tabcontent" style="display: block;">
+        <h3>Internet Programming</h3>
+        <p>* Currently Taking *</p>
+        <p>Learned about HMTL, CSS, and JavaScript.</p>
+        <p>Project:</p>
+      </div>
 
-      <h3>Intro to Algorithms and Data Structures</h3>
-      <h5>Language: Java</h5>
+      <div id="CS4707" class="tabcontent" style="display: none;">
+        <h3>Practice of Databases</h3>
+        <p>* Currently Taking *</p>
+      </div>
 
-      <h3>Intro to Computing and Programming</h3>
-      <h5>Language: Python</h5>
-      <p>Created </p>
- -->
+      <div id="CS4041" class="tabcontent" style="display: none;">
+        <h3>Algorithms and Data Structure</h3>
+        <p>Learned about different search algorithms.</p>
+      </div>
 
+      <div id="CS3081W" class="tabcontent" style="display: none;">
+        <h3>Practice of Databases</h3>
+        <p>* Currently Taking *</p>
+      </div>
 
-    <h2>Vertical Tabs</h2>
-    <p>Click on the buttons inside the tabbed menu:</p>
-
-    <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+      <div id="CS4061" class="tabcontent" style="display: none;">
+        <h3>Practice of Databases</h3>
+        <p>Learned about Unix operating system.</p>
+      </div>
     </div>
 
-    <div id="London" class="tabcontent" style="display: block;">
-      <h3>London</h3>
-      <p>London is the capital city of England.</p>
-    </div>
-
-    <div id="Paris" class="tabcontent" style="display: none;">
-      <h3>Paris</h3>
-      <p>Paris is the capital of France.</p>
-    </div>
-
-    <div id="Tokyo" class="tabcontent" style="display: none;">
-      <h3>Tokyo</h3>
-      <p>Tokyo is the capital of Japan.</p>
-    </div>
-    </div>
     <div class="footer">
       <p>&copy; 2020 Chloe Cho</p>
     </div>

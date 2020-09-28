@@ -4,6 +4,12 @@
   display: table;
 }
 
+html {
+  height: 100%;
+  margin: auto;
+  width: 100%;
+}
+
 body{
   margin: 0;
   font-size: 28px;
@@ -49,12 +55,6 @@ body{
   font-size: 17px;
 }
 
-.main{
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px;
-}
-
 .resume-btn{
   top: 4px;
   right: 4px;
@@ -72,22 +72,16 @@ body{
 }
 
 .resume-btn:hover{
-  color: #078282FF;
+  color: #8282FF;
   background-color: white;
 }
 
 .header{
-  background-color: black;
-  padding: 50px 80px;
   text-align: center;
-}
-
-.header h1{
-  line-height: 100px;
-  height: 50px;
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 80px;
+  margin: 0;
+  font-size: 60px;
   color: #252728;
+  font-family: 'Fredoka One', cursive
 }
 
 
@@ -95,7 +89,7 @@ body{
 
 
 .home{
-  padding-top: 100px;
+  padding-top: 70px;
   padding-left: 20%;
   text-align: left;
 }
@@ -131,7 +125,7 @@ body{
 /* ABOUT */
 
 .about{
-  padding: 5% 20%;
+  padding: 0% 20%;
   /* padding: 50px 240px; */
   text-align: left;
   color: #809cb6;
@@ -156,7 +150,6 @@ body{
 
 .about p{
   font-size: 18px;
-
   margin: 0px;
 }
 
@@ -237,7 +230,7 @@ ul {
 /* PROJECT */
 
 .project{
-  padding: 5% 20%;
+  padding: 0% 20%;
 }
 .project table{
   width: 100%;
@@ -261,6 +254,7 @@ ul {
 .classes{
   padding: 5% 20%;
   text-align: left;
+  margin-bottom: 500px;
 }
 
 .classes h3{
@@ -275,29 +269,26 @@ ul {
   padding-left: 1px;
 }
 
-
-/* Style the tab */
-.tab {
+.tab{
   float: left;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 20%;
-  height: 300px;
+  /* height: 100px; */
 }
 
-/* Style the buttons inside the tab */
-.tab button {
+.tab button{
   display: block;
   background-color: inherit;
   color: black;
-  padding: 22px 10px;
+  padding: 20px 10px;
   width: 100%;
   border: none;
   outline: none;
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* Change background color of buttons on hover */
@@ -317,7 +308,11 @@ ul {
   border: 1px solid #ccc;
   width: 75%;
   border-left: none;
-  height: 300px;
+  height: 342px;
+}
+
+.tabcontent p{
+  font-size: 14px;
 }
 
 .footer{
