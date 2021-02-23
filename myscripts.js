@@ -15,4 +15,4 @@ function openClasses(obj, className) {
   obj.currentTarget.className += " active";
 
 }
-  document.getElementById("defaultOpen").click();
+document.getElementById("defaultOpen").click();
