@@ -1,4 +1,4 @@
-# chloecho.github.io
+# chloe-cho.github.io
 Personal website created to showcase my portfolio for Computer Science. The website
 isn't fully complete, but I am constantly editing it.
 
