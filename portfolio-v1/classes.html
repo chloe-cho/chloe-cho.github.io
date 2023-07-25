@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widrh, initial scale-1=1">
+    <title>Classes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="navbar">
+        <a class="lgo">Chloe.</a>
+        <a href="index.html">Home</a>
+        <a href="about.html" target="_self">About</a>
+        <a href="project.html">Projects</a>
+        <a class="active" href="#classes">Classes</a>
+        <a href="ChloeCho_Resume.pdf" target="_blank" class="resume-btn">Resume</a>
+    </div>
+
+    <div class="header">
+      <h1>CLASSES</h1>
+    </div>
+
+    <div class="classes">
+
+      <div class="tab">
+        <button class="tablinks" onclick="openClasses(event, 'CS5115')" id="defaultOpen">CSCI 5115</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS4131')">CSCI 4131</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS4707')">CSCI 4707</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS4041')">CSCI 4041</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS3081W')">CSCI 3081W</button>
+        <button class="tablinks" onclick="openClasses(event, 'CS4061')">CSCI 4061</button>
+      </div>
+
+      <div id="CS5115" class="tabcontent" style="display: block;">
+        <h3>User Interface Design</h3>
+        <p> Learning about user interface design and ways to improve a design.</p>
+        <p>
+          Project: Plan-It (Android Studio)<br>
+          Designed the UI for a social planner app that allows for students to communicate, plan, and schedule meetings
+          all in one place.
+        </p>
+      </div>
+
+      <div id="CS4131" class="tabcontent" style="display: none;">
+        <h3>Internet Programming</h3>
+        <p>Learned about different web technologies like HTML, CSS, Javascirpt, NodeJS, Express, and more.</p>
+        <p>Project: Event Tracker (NodeJS, MySQL)</p>
+        <p>Coded a website that uses Express which allows users to add and display events that are kept track by MySQL. 
+          There is a stock information page that uses an API to display information about certain companies. 
+          </p>
+      </div>
+
+      <div id="CS4707" class="tabcontent" style="display: none;">
+        <h3>Practice of Databases  (MySQL)</h3>
+        <p>Project: New Haven Health Care Database</p>
+        <p>Designed a database system for a Health Care. Created ER Diagrams and Mappings. Used MySQL to create the database.</p>
+      </div>
+
+      <div id="CS4041" class="tabcontent" style="display: none;">
+        <h3>Algorithms and Data Structure (Python)</h3>
+        <p>Learned about different search algorithms and data structures.</p>
+      </div>
+
+      <div id="CS3081W" class="tabcontent" style="display: none;">
+        <h3>Programming Design  (Java)</h3>
+        <p>Project: Bus Simulator</p>
+        <p>Implemented design patterns for a Bus Simulator.</p>
+      </div>
+
+      <div id="CS4061" class="tabcontent" style="display: none;">
+        <h3>Intro to Operating Systems (C)</h3>
+        <p>Learned about Unix operating system.</p>
+        <p>Project: Commando</p>
+      </div>
+
+
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2021 Chloe Cho</p>
+    </div>
+
+
+    <script src="myscripts.js"></script>
+
+
+  </body>
+</html>
