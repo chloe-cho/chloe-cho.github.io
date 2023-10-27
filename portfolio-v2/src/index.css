@@ -9,7 +9,7 @@
     @apply font-[Bebas+Neue];
   }
   li {
-    @apply px-4 cursor-pointer; 
+    @apply px-3 cursor-pointer; 
   }
 }
 

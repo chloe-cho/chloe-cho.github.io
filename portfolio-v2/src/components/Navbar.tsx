@@ -6,17 +6,17 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaEnvelope, FaFileAlt} from 'reac
 
 const Navbar: React.FC = () => {
     
-    // const [nav, setNav] = useState(false)
-    // const handleClick = () => setNav(!nav)
+    const [nav, setNav] = useState(false)
+    const handleClick = () => setNav(!nav)
   return (
-        <div className='fixed w-full h-[50px] flex justify-between items-center px-2 bg-[#000000] text-white'> 
+        <div className='fixed w-full h-[50px] flex justify-between items-center px-4 md:px-40 bg-[#000000] text-white'> 
             <div>
                 <img src={Logo} alt="" style={{width: '45px'}}/>
             </div>
 
             {/* menu */}
             <div>
-                <ul className='flex'>
+                <ul className='hidden md:flex'>
                     <li className='hover:text-[#38b6ff]'>Home</li>
                     <li className='hover:text-[#38b6ff]'>About</li>
                     <li className='hover:text-[#38b6ff]'>Projects</li>
@@ -25,15 +25,21 @@ const Navbar: React.FC = () => {
             </div>
              
             {/* hamburger */}
-            <div className='hidden'>
+            <div onClick={handleClick} className='md:hidden z-10'>
+                {!nav ? <FaBars/> : <FaTimes/>}
+                
             </div>
 
             {/* mobile menu */}
-            <div className='hidden'>
-            </div>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'}>
+                    <li className='hover:text-[#38b6ff] py-5 text-2xl'>Home</li>
+                    <li className='hover:text-[#38b6ff] py-5 text-2xl'>About</li>
+                    <li className='hover:text-[#38b6ff] py-5 text-2xl'>Projects</li>
+                    <li className='hover:text-[#38b6ff] py-5 text-2xl'>Contact</li>
+            </ul>
 
             {/* social icons */}
-            <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden md:flex fixed flex-col top-[40%] left-0'>
                 <ul>
                     <li className='w-[50px] h-[40px] flex justify-between bg-[#0077B5] hover:bg-white hover:text-[#0077B5] group'>
                         <a className='flex justify-between items-center w-full' href="https://www.linkedin.com/in/chloe-h-cho/" target="_blank" rel="noopener noreferrer">
