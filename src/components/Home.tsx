@@ -1,6 +1,5 @@
 import React from 'react'
 import {BiSolidPhone} from 'react-icons/bi'
-import Logo from '../assets/logo.png'
 const Home: React.FC = () => {
   return (
         <div className='w-full h-screen bg-[#000000] text-white'> 

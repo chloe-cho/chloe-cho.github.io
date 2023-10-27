@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
           <h1>Projects</h1>
          <div className='max-w-[1000px] mx-auto md:px-40 justify-center text-center grid grid-cols-3 gap-12 h-full content-center'>
             <div>
-
+              Water Plants - used moisture sensor to water plants. 
             </div>
             <div>
               1
