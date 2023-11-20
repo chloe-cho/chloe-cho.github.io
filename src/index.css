@@ -12,9 +12,3 @@
     @apply px-3 cursor-pointer; 
   }
 }
-
-@layer components {
-  .social-bar {
-    @apply text-white
-  }
-}

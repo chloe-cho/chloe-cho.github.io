@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'}>
                     <li className='hover:text-[#38b6ff] py-5 text-2xl'>Home</li>
                     <li className='hover:text-[#38b6ff] py-5 text-2xl'>About</li>
                     <li className='hover:text-[#38b6ff] py-5 text-2xl'>Projects</li>
